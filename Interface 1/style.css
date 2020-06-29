@@ -1,0 +1,55 @@
+body {
+  font-family: "ff-meta-web-pro","PT Sans","Lucida Grande","Lucida Sans","Lucida",Verdana,"Droid Sans",sans-serif;
+  line-height: 1.45;
+  font-size: 25px;
+}
+
+img { 
+  text-align: center;
+}
+
+
+h3 {
+  font-family: "ff-meta-web-pro","PT Sans","Lucida Grande","Lucida Sans","Lucida",Verdana,"Droid Sans",sans-serif;
+  font-weight: normal;
+  text-align: left;
+  font-size: 30px;
+  color: #5CC18D;
+}
+
+p {
+    display: block;
+    text-align: left;
+    color: #404040;
+}
+
+code {
+  font-family: "fira-mono","PT Sans Mono","Monaco","Iconsolas","Droid Sans Mono",monospace;
+  font-size: 26px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-gap: 40px;
+    background-color: #ffffff;
+    padding: 20px;
+  }
+  
+  .grid-container > div {
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  .caps {
+    text-transform: uppercase;
+    -ms-font-feature-settings: "smcp","c2sc";
+    font-variant-caps: all-small-caps;
+}
+  
+/* SMALL SCREEN */
+@media screen and (max-width: 600px) {
+  .grid-container {
+    display: block;
+  }
+}

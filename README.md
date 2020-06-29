@@ -4,4 +4,4 @@
 <a href="https://interface-1.netlify.app/">Check out my Interface 1</a>
 
 ## Interface 2
-<a href="https://interface-1.netlify.app/">Check out my Interface 2</a>
+<a href="https://interface-2.netlify.app/">Check out my Interface 2</a>

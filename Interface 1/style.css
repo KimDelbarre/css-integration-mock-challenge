@@ -6,6 +6,7 @@ body {
 
 img { 
   text-align: center;
+  object-fit: contain;
 }
 
 
@@ -34,6 +35,9 @@ code {
     grid-gap: 40px;
     background-color: #ffffff;
     padding: 20px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
   }
   
   .grid-container > div {
@@ -48,8 +52,10 @@ code {
 }
   
 /* SMALL SCREEN */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1024px) {
   .grid-container {
     display: block;
+    /* of op deze manier:
+  grid-template-colums: 1fr */
   }
 }

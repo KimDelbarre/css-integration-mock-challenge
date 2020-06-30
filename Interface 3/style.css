@@ -1,0 +1,46 @@
+
+.grid {
+    display: grid;
+     grid-template-columns: 40% auto;
+     grid-gap: 5%;
+   }
+
+
+h1 {
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,Helvetica,"\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3",Hiragino Kaku Gothic Pro,"\30E1\30A4\30EA\30AA",Meiryo,"\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF",Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    color: #111111;
+    font-size: 36px;
+}
+
+h3 {
+    font-family: Helvetica Neue,Helvetica,"\30D2\30E9\30AE\30CE\89D2\30B4 Pro W3",Hiragino Kaku Gothic Pro,"\30E1\30A4\30EA\30AA",Meiryo,"\FF2D\FF33 \FF30\30B4\30B7\30C3\30AF",Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol;
+    font-size: 18px;
+    color: #757575;
+}
+
+p {
+    font-family: medium-content-sans-serif-font, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.media {
+    position: fixed;
+    bottom: 0;
+    }
+
+.gray {
+    color: #757575;
+}
+
+.round{
+    border-radius: 50%;   
+}
+
+
+.arrow {
+    border: solid  #111111;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+  }
